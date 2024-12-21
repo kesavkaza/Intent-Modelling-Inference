@@ -1,0 +1,2 @@
+# The codes are used to generate trajectories for the three intents - direct attack, harmless and surveillance - in a 500 m x 500 m x 100 m environment. 
+# Run the main_simulation.m file to generate and save the trajectories.
