@@ -1,3 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Code written in Matlab 2021b
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc,clear all
 close all
 warning off
@@ -17,7 +22,7 @@ ntraj = length(Trajectories);
 for pathIndex = 1:ntraj
     tic
     constant_velocity = sqrt(sum(abs(init_vels_DA{pathIndex}).^2));% m/s
-    %         constant_velocity = sqrt(sum(abs(init_vels_HL{pathIndex}).^2));% m/s
+    %     constant_velocity = sqrt(sum(abs(init_vels_HL{pathIndex}).^2));% m/s
     %     constant_velocity = sqrt(sum(abs(init_vels_SL{pathIndex}).^2));% m/s
     traj = Trajectories{pathIndex};
     x_target = traj(:, 1);
